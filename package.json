@@ -1,0 +1,27 @@
+{
+  "name": "json-bigint-single",
+  "version": "1.0.0",
+  "description": "Single file of [json-bigint](https://github.com/sidorares/json-bigint).",
+  "main": "dist/json-bigint-single.umd.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikyd/json-bigint-single.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikyd/json-bigint-single/issues"
+  },
+  "homepage": "https://github.com/vikyd/json-bigint-single#readme",
+  "dependencies": {
+    "json-bigint": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
